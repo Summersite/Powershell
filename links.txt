@@ -1,0 +1,8 @@
+https://www.ghacks.net/2016/08/16/hide-disable-action-center-windows-10/
+http://www.windowstricks.in/2016/06/import-admx-files-windows-10.html
+https://blogs.technet.microsoft.com/platforms_lync_cloud/2017/05/05/disabling-windows-10-action-center-notifications/
+https://www.askvg.com/windows-10-tip-disable-toast-notifications-and-enable-classic-balloon-tips/
+
+https://getadmx.com/?Category=Windows_10_2016&Policy=Microsoft.Policies.RemovableStorageAccess::WPDDevices_DenyWrite_Access_2
+https://social.technet.microsoft.com/Forums/en-US/29fde8cf-5ed2-4466-b220-a26a4174e903/how-to-disable-mtp-usb-storage-and-cddvd-rom-drivers?forum=win10itprogeneral
+https://www.google.com/search?rlz=1C1GCEB_enUS810US810&q=Mtp+Usb+scan+Transport+Class&spell=1&sa=X&ved=0ahUKEwiY5-mJ_P7dAhWhzVkKHVt0DrIQBQgqKAA&biw=1920&bih=938

@@ -1,0 +1,1 @@
+﻿Get-ItemProperty HKLM:\software\WOW6432Node\Microsoft\windows\CurrentVersion\Uninstall\* |select-object Displayname, Displayversion, Publisher, InstallDate > .\desktop\Installedsoftware.txt
