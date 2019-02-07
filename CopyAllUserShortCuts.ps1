@@ -1,4 +1,5 @@
-﻿$scriptblock = {
+﻿#Copy all users shortcuts
+$scriptblock = {
 Start-Transcript -Path "C:\windows\Temp\eNAEPCodeCopy-Transcript.txt" -Force -IncludeInvocationHeader
 $MDTcred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList "enaepdev\mdtuser", (ConvertTo-SecureString -String "Deployment.1" -AsPlainText -Force)
 try {
