@@ -1,0 +1,5 @@
+﻿#Search for the users and export report
+
+get-aduser -filter * -properties Name, PasswordNeverExpires | where {
+$_.passwordNeverExpires -eq "true" } |  Select-Object DistinguishedName,Name,Enabled |
+Export-csv d:\temp\pw_never_expires.csv -NoTypeInformation
