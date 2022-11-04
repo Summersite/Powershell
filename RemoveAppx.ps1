@@ -1,4 +1,4 @@
-﻿
+﻿#Remove APPX from PC
 trap 
 { 
     Write-Host("Line{0}:{1}: {2} `nInner: {3}" -f 
