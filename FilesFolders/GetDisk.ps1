@@ -1,0 +1,1 @@
+﻿wmic diskdrive get model,status

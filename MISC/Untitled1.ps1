@@ -1,0 +1,1 @@
+﻿Robocopy F:\Pstools\ /E /XF C:\SandBox\Destination\  /logfile

@@ -1,0 +1,1 @@
+﻿Get-Service wuauserv | Stop-Service -PassThru | Set-Service -StartupType Disabled

@@ -1,0 +1,1 @@
+﻿nmap -A -oN D:\Scans\NightlyFullScanAppend.txt 192.168.2.0/24 --append

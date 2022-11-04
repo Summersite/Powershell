@@ -1,0 +1,1 @@
+﻿ PowerShell.exe -ExecutionPolicy Bypass -Command "Get-WmiObject win32_bios | Select-Object -Property smbiosbiosversion" 

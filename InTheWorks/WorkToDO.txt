@@ -1,0 +1,6 @@
+Create the following
+
+Check for non clean shutdown via event viewer ID 41 and 6008
+ 
+Check disks via event viewer ID 98
+

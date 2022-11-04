@@ -1,0 +1,1 @@
+﻿Get-NetIPAddress -CimSession $env:COMPUTERNAME -InterfaceAlias Wi-FI -AddressFamily IPv4 | select ipaddress

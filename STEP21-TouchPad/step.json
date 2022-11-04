@@ -1,0 +1,7 @@
+{
+	"title": "Edit Touchpad settings for Router, Monitor and Student",
+	"cmd": "powershell.exe",
+	"args": " C:\\Windows\\Temp\\eupdownload\\enaepupdater\\STEP21-TouchPAD\\FixTouchPadRightClick.ps1",
+	"installTime": "30 seconds",
+	"additionalMessage": "Apply Touchpad Rightclick Feature"
+}

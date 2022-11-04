@@ -1,0 +1,1 @@
+﻿Expand-7Zip -ArchiveFileName C:\SandBox\Postclone\ConfigureTablet1.7z -TargetPath C:\SandBox\Postclone
