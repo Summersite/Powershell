@@ -6,7 +6,7 @@ $chip= $env:PROCESSOR_ARCHITECTURE
 #Setup Log for appending
 $date = Get-Date
 $date = $date.ToString("yyyyMMdd")
-$logfile = "c:\temp\test_$date.log" 
+$logfile = "w:\logfiles\test_$date.log" 
 $ip= Get-NetIPAddress -CimSession $env:COMPUTERNAME -InterfaceAlias Wi-FI -AddressFamily IPv4 | select ipaddress
 
 Function LogWrite {

@@ -1,0 +1,59 @@
+Dell Stag FD7ZFB3
+Model:        XPS 15 9500
+
+
+devicename                driverversion
+----------                -------------
+Device Firmware           10.0.19041.1 
+NVMe Firmware 11.17.00.12 11.17.0.12   
+System Firmware 1.11.0    0.1.11.0  
+
+Name                                                           Version         
+----                                                           -------         
+Office 16 Click-to-Run Extensibility Component                 16.0.15726.20202
+Office 16 Click-to-Run Localization Component                  16.0.14131.20278
+Office 16 Click-to-Run Licensing Component                     16.0.16026.20146
+Microsoft Update Health Tools                                  3.70.0.0        
+Microsoft Visual C++ 2019 X64 Additional Runtime - 14.24.28127 14.24.28127     
+Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005     12.0.21005      
+Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127 14.24.28127     
+Windows PC Health Check                                        3.6.2204.08001  
+Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.24.28127    14.24.28127     
+Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127    14.24.28127 
+
+DisplayName                                                        DisplayVersion   Publisher                  InstallDate
+-----------                                                        --------------   ---------                  -----------
+Adobe Genuine Service                                              8.2.0.18         Adobe Inc.                            
+Citrix Workspace 1912                                              19.12.2000.7     Citrix Systems, Inc.                  
+                                                                                                                          
+Google Chrome                                                      109.0.5414.121   Google LLC                 20230210   
+Microsoft Edge                                                     109.0.1518.78    Microsoft Corporation      20230206   
+Microsoft Edge Update                                              1.3.173.45                                             
+Microsoft Edge WebView2 Runtime                                    109.0.1518.78    Microsoft Corporation      20230206   
+TeamViewer                                                         15.34.4          TeamViewer                            
+                                                                                                                          
+Dell SupportAssist Remediation                                     5.5.1.16141      Dell Inc.                             
+Citrix Workspace(USB)                                              19.12.2000.7     Citrix Systems, Inc.       20221021   
+Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.24.28127 14.24.28127.4    Microsoft Corporation                 
+Citrix Web Helper                                                  19.12.2000.4     Citrix Systems, Inc.       20221021   
+Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.24.28127        14.24.28127      Microsoft Corporation      20221021   
+Citrix Workspace Inside                                            19.12.2000.65534 Citrix Systems, Inc.       20221021   
+Citrix Workspace(Aero)                                             19.12.2000.7     Citrix Systems, Inc.       20221021   
+Online Plug-in                                                     19.12.2000.7     Citrix Systems, Inc.       20221021   
+Citrix Authentication Manager                                      19.12.2000.23    Citrix Systems, Inc.       20221021   
+App Protection                                                     19.12.2000.12    Citrix Systems, Inc.       20221021   
+Intel® Integrated Sensor Solution                                  3.10.100.4122    Intel Corporation                     
+Self-service Plug-in                                               19.12.2000.4     Citrix Systems, Inc.       20221021   
+Adobe Refresh Manager                                              1.8.0            Adobe Systems Incorporated 20220930   
+Adobe Acrobat 2020                                                 20.005.30436     Adobe Systems Incorporated 20230113   
+Cisco Webex Meetings                                               41.5.6.9         Cisco Webex LLC            20210526   
+Citrix Screen Casting for Windows                                  19.11.100.52     Citrix Systems, Inc        20221021   
+Dell Digital Delivery Services                                     5.0.64.0         Dell Inc.                  20221205   
+Snagit 2020                                                        20.1.5.7133      TechSmith Corporation                 
+Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.24.28127 14.24.28127.4    Microsoft Corporation                 
+Microsoft Visual C++ 2019 X86 Additional Runtime - 14.24.28127     14.24.28127      Microsoft Corporation      20221021   
+Citrix Workspace(DV)                                               19.12.2000.7     Citrix Systems, Inc.       20221021   
+Dell SupportAssist OS Recovery Plugin for Dell Update              5.4.1.14954      Dell Inc.     
+
+AD = False
+

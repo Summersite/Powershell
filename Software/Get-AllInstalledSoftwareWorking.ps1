@@ -1,7 +1,7 @@
 #http://jongurgul.com/blog/installedsoftware/
 # Jimmy Johannsen
 # run this as follows
-# Get-InstalledSoftware ComputerName >c:\temp\today08022019.txt
+ Get-InstalledSoftware ComputerName >c:\temp\today08022019.txt
 Function Get-InstalledSoftware{
     Param([String[]]$Computers)
     If (!$Computers) {$Computers = $ENV:ComputerName}
