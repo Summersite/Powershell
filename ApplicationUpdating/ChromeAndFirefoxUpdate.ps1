@@ -1,4 +1,4 @@
-﻿<# Script for updating Chrome and FireFox. Also added functions to test the browser and close with new version checked at end and clean up of files and directory#>
+﻿# Script for updating Chrome and FireFox. Also added functions to test the browser and close with new version checked at end and clean up of files and directory#>
 # Variables:
 $ChromeExe = "$Env:ProgramFiles\\Google\\Chrome\\Application\\Chrome.exe"
 $FireFoxExe = "$Env:ProgramFiles\\Mozilla Firefox\\firefox.exe"
