@@ -1,4 +1,10 @@
-﻿Function Pause ($Message = "Press any key to continue...") {
+﻿# todo
+# this should be added in the log file
+# Computer info Dell Model etc
+# filename = ComputernameDateandtime
+
+
+Function Pause ($Message = "Press any key to continue...") {
    # Check if running in PowerShell ISE
    If ($psISE) {
       # "ReadKey" not supported in PowerShell ISE.
