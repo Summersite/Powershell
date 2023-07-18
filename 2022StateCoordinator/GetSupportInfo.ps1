@@ -1,4 +1,4 @@
-﻿cls
+﻿clear-host
 Write-host "Setting execution environment" -ForegroundColor Yellow
 Set-ExecutionPolicy Bypass -Scope Process -Force
 
