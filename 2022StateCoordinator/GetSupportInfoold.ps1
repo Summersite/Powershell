@@ -1,6 +1,5 @@
-﻿
-
 #*******************************************************************************************************
+Write-host "Setting executionpolicy"
 Set-ExecutionPolicy Bypass -Scope Process -Force
 
 # ******************************************************************************************************
@@ -23,12 +22,14 @@ $logfile = "$createlogfiledir\Support $date $hostname.log"
 #**********************************************************************************************************************
 
 #OS version and Build number
+Write-host "Retrieving OS Version"
 Get-WmiObject win32_OperatingSystem >> $logfile
 
 #**********************************************************************************************************************
 
 # Display Computer details - Model and Service Tag +++ Working
 #cls
+Write-host "Retrieving Computer Details"
 Write-Output "Computer Details:" >> $logfile
 $comp = gwmi Win32_ComputerSystem 
 "Manufacturer: {0}" -f $comp.Manufacturer >> $logfile
@@ -50,6 +51,7 @@ get-wmiobject win32_pnpsigneddriver | where {$_.deviceclass -eq "FIRMWARE"} | se
 # Office version 
 # https://www.codetwo.com/admins-blog/how-to-check-installed-software-version/
 # get by vendor name
+Write-host "Retrieving Current Microsoft Office Version"
 Get-WmiObject -Class Win32_Product | where vendor -eq 'Microsoft Corporation' | select Name, Version >> $logfile
 
 #All other Software
