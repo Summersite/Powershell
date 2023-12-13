@@ -10,5 +10,3 @@ Get-PSDrive -PSProvider FileSystem | Select-Object name, @{n="Root"; e={if ($_.D
 
 
 Get-WmiObject -Class Win32_MappedLogicalDisk | select Name, ProviderName
-
-Pause

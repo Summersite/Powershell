@@ -1,0 +1,1 @@
+﻿Get-HotFix | findstr  KB5002316 
