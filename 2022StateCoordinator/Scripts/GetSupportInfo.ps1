@@ -65,6 +65,7 @@ Get-PSDrive | Where-Object { $_.Free -ne $null } | Select-Object Name, Used, Fre
 Write-host "Retrieving and Appending Firmware information" -ForegroundColor yellow
 Write-Output "Firmware information:" >> $logFilePath
 Get-WmiObject -Class win32_pnpsigneddriver | Where-Object {$_.deviceclass -eq "FIRMWARE"} | Select-Object devicename, driverversion | Format-Table >> $logFilePath
+Get-WmiObject win32_bios >> $logFilePath
 
 Write-host "Retrieving and Appending Microsoft Software information" -ForegroundColor yellow
 Write-Output "Microsoft Software:" >> $logFilePath
